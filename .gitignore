@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode build output
+build/
+DerivedData/
+.derivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode per-user state (keep shared schemes)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.perspectivev3
+*.pbxuser
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+Packages/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Swift tooling caches
+.module-cache/
+.swiftpm-cache/
+*.swiftmodule
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and credentials
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.xcconfig.local
+.env
+.env.*
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
